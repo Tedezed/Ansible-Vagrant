@@ -1,0 +1,18 @@
+---
+# Definicion de tareas para el conjunto de host
+# This playbook deploys the whole application stack in this site.  
+
+- name: apply common configuration to all nodes
+  hosts: all
+  remote_user: root
+
+  roles:
+    - common
+
+- name: install apache2
+  hosts: web
+  remote_user: root
+
+  roles:
+    - webserver
+

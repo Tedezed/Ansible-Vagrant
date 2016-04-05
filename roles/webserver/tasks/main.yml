@@ -1,0 +1,7 @@
+---
+# This playbook contains common plays that will be run on all nodes.
+
+- name: Install apache2
+  yum: name=apache2 state=present
+  tags: apache2
+

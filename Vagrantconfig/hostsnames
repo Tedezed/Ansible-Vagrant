@@ -1,0 +1,4 @@
+192.168.33.10 centos-master1
+192.168.33.11 centos-master2
+192.168.33.12 centos-node1
+192.168.33.13 centos-node2
