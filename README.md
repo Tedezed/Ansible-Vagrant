@@ -4,6 +4,10 @@ Ejemplo simple ansible
 Estructura:
 
 	├── Vagrantconfig <- Archivos de configuración adicionales de la maquina Vagrant.
+	│   ├── hostsnames
+	│   └── keys
+	│		├── id_rsa.pub
+	│  		└── id_rsa
 	├── ansible.cfg <- Configuración de ansible; clave rivada, hostfile, remote user... etc.
 	├── group_vars <- Definición de variables por grupos de host.
 	│   ├── all
